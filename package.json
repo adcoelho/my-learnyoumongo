@@ -1,0 +1,13 @@
+{
+  "name": "learnyoumongo",
+  "version": "0.0.0",
+  "description": "My solutions to the learnyoumongo workshop.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Antonio Coelho <antoniodcoelho@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  }
+}
