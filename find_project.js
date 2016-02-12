@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-var db_url = 'mongodb://localhost:27017/learnyoumongo';
+var url = 'mongodb://localhost:27017/learnyoumongo';
 var age = process.argv[2];
 
 /*
@@ -12,7 +12,7 @@ name and age properties
 Using console.log, print the documents to stdout.
 */
 
-MongoClient.connect(db_url, function (err, db) {
+MongoClient.connect(url, function (err, db) {
     if (err) throw err;
     var collection = db.collection('parrots');
     collection.find({
@@ -27,4 +27,4 @@ MongoClient.connect(db_url, function (err, db) {
         console.log(docs);
         db.end();
     })
-})
+});
