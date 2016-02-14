@@ -1,0 +1,2 @@
+My solutions to the [learnyoumongo](https://github.com/evanlucas/learnyoumongo) workshop.
+I wanted to learn and practice mongodb and these exercises were available on [FreeCodeCamp](www.freecodecamp.com).
